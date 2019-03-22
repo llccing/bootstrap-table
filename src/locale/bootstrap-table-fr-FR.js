@@ -3,39 +3,63 @@
  * Author: Dennis Hernández (http://djhvscf.github.io/Blog/)
  * Modification: Tidalf (https://github.com/TidalfFR)
  */
-(function ($) {
-    'use strict';
+($ => {
+  $.fn.bootstrapTable.locales['fr-FR'] = {
+    formatLoadingMessage () {
+      return 'Chargement en cours, patientez, s´il vous plaît'
+    },
+    formatRecordsPerPage (pageNumber) {
+      return `${pageNumber} lignes par page`
+    },
+    formatShowingRows (pageFrom, pageTo, totalRows) {
+      return `Affichage des lignes ${pageFrom} à ${pageTo} sur ${totalRows} lignes au total`
+    },
+    formatDetailPagination (totalRows) {
+      return `Showing ${totalRows} rows`
+    },
+    formatSearch () {
+      return 'Rechercher'
+    },
+    formatNoMatches () {
+      return 'Aucun résultat trouvé'
+    },
+    formatPaginationSwitch () {
+      return 'Montrer/Masquer pagination'
+    },
+    formatRefresh () {
+      return 'Rafraîchir'
+    },
+    formatToggle () {
+      return 'Alterner'
+    },
+    formatColumns () {
+      return 'Colonnes'
+    },
+    formatFullscreen () {
+      return 'Fullscreen'
+    },
+    formatAllRows () {
+      return 'Tous'
+    },
+    formatAutoRefresh () {
+      return 'Auto Refresh'
+    },
+    formatExport () {
+      return 'Exporter les données'
+    },
+    formatClearFilters () {
+      return 'Vider les filtres'
+    },
+    formatJumpto () {
+      return 'GO'
+    },
+    formatAdvancedSearch () {
+      return 'Recherche avancée'
+    },
+    formatAdvancedCloseButton () {
+      return 'Fermer'
+    }
+  }
 
-    $.fn.bootstrapTable.locales['fr-FR'] = {
-        formatLoadingMessage: function () {
-            return 'Chargement en cours, patientez, s´il vous plaît ...';
-        },
-        formatRecordsPerPage: function (pageNumber) {
-            return pageNumber + ' lignes par page';
-        },
-        formatShowingRows: function (pageFrom, pageTo, totalRows) {
-            return 'Affichage des lignes ' + pageFrom + ' à ' + pageTo + ' sur ' + totalRows + ' lignes au total';
-        },
-        formatSearch: function () {
-            return 'Rechercher';
-        },
-        formatNoMatches: function () {
-            return 'Aucun résultat trouvé';
-        },
-        formatRefresh: function () {
-            return 'Rafraîchir';
-        },
-        formatToggle: function () {
-            return 'Alterner';
-        },
-        formatColumns: function () {
-            return 'Colonnes';
-        },
-        formatAllRows: function () {
-            return 'Tous';
-        }
-    };
-
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['fr-FR']);
-
-})(jQuery);
+  $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['fr-FR'])
+})(jQuery)

@@ -2,36 +2,63 @@
 * Bootstrap Table German translation
 * Author: Paul Mohr - Sopamo<p.mohr@sopamo.de>
 */
-(function ($) {
-  'use strict';
-
+($ => {
   $.fn.bootstrapTable.locales['de-DE'] = {
-    formatLoadingMessage: function () {
-      return 'Lade, bitte warten...';
+    formatLoadingMessage () {
+      return 'Lade, bitte warten'
     },
-    formatRecordsPerPage: function (pageNumber) {
-      return pageNumber + ' Einträge pro Seite';
+    formatRecordsPerPage (pageNumber) {
+      return `${pageNumber} Zeilen pro Seite.`
     },
-    formatShowingRows: function (pageFrom, pageTo, totalRows) {
-      return 'Zeige ' + pageFrom + ' bis ' + pageTo + ' von ' + totalRows + ' Zeile' + ((totalRows > 1) ? "n" : "");
+    formatShowingRows (pageFrom, pageTo, totalRows) {
+      return `Zeige Zeile ${pageFrom} bis ${pageTo} von ${totalRows} Zeile${(totalRows > 1) ? 'n' : ''}.`
     },
-    formatSearch: function () {
-      return 'Suchen';
+    formatDetailPagination (totalRows) {
+      return `Zeige ${totalRows} Zeile${(totalRows > 1) ? 'n' : ''}.`
     },
-    formatNoMatches: function () {
-      return 'Keine passenden Ergebnisse gefunden';
+    formatSearch () {
+      return 'Suchen'
     },
-    formatRefresh: function () {
-      return 'Neu laden';
+    formatNoMatches () {
+      return 'Keine passenden Ergebnisse gefunden'
     },
-    formatToggle: function () {
-      return 'Umschalten';
+    formatPaginationSwitch () {
+      return 'Verstecke/Zeige Nummerierung'
     },
-    formatColumns: function () {
-      return 'Spalten';
+    formatRefresh () {
+      return 'Neu laden'
+    },
+    formatToggle () {
+      return 'Umschalten'
+    },
+    formatColumns () {
+      return 'Spalten'
+    },
+    formatFullscreen () {
+      return 'Fullscreen'
+    },
+    formatAllRows () {
+      return 'Alle'
+    },
+    formatAutoRefresh () {
+      return 'Auto Refresh'
+    },
+    formatExport () {
+      return 'Datenexport'
+    },
+    formatClearFilters () {
+      return 'Lösche Filter'
+    },
+    formatJumpto () {
+      return 'GO'
+    },
+    formatAdvancedSearch () {
+      return 'Advanced search'
+    },
+    formatAdvancedCloseButton () {
+      return 'Close'
     }
-  };
+  }
 
-    $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['de-DE']);
-
-})(jQuery);
+  $.extend($.fn.bootstrapTable.defaults, $.fn.bootstrapTable.locales['de-DE'])
+})(jQuery)

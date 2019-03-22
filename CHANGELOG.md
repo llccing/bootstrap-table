@@ -1,6 +1,218 @@
 ChangeLog
 ---------
 
+### 1.14.2
+
+- **New(fixed-columns extension):** Added new version fixed-columns extension.
+- **New(js):** Updated the style of loading message.
+- **Update(js):** Updated refresh event params.
+- **Update(locale):** Updated all locale translation with English as default.
+- **Update(export extension):** Fixed export all rows to pdf bug.
+- **Update(export extension):** Disabled export button when exportDataType is 'selected' and selection empty.
+- **Update(addrbar extension):** Fixed addrbar extension remove hash from url bug.
+
+### 1.14.1
+
+- **New(css):** Added CSS Frameworks supported.
+- **New(css):** Added [Semantic UI](http://semantic-ui.com) theme.
+- **New(css):** Added [Bulma](http://bulma.io) theme.
+- **New(css):** Added [Materialize](https://materializecss.com/) theme.
+- **New(css):** Added [Foundation](https://foundation.zurb.com/) theme.
+- **New(js):** Added data attribute support for `ignoreClickToSelectOn` option.
+- **Update(js):** Fixed `detailView` find td elements bug.
+- **Update(js):** Fixed `showColumns` close dropdown bug when item label clicking.
+- **Update(js):** Fixed reset width error after `toggleFullscreen`.
+- **Update(js):** Fixed `cardview` click event bug.
+
+### 1.13.5
+
+- **New(auto-refresh extension):** Rewrote auto-refresh extension to ES6.
+- **Update(js):** Fixed showFullscreen cannot work bug.
+- **Update(js):** Redefined customSearch option.
+- **Update(js):** Fixed show footer cannot work bug.
+- **Update(js):** Updated the parameter of `footerStyle`.
+- **Update(js):** Added classes supported for `footerStyle`.
+- **Update(js):** Fixed IE11 transform bug.
+- **Update(js):** Removed beginning and end whitespace from td.
+- **Update(export extension):** Fixed export selected bug.
+
+### 1.13.4
+
+- **New(sticky-header extension):** Rewrote sticky-header extension to ES6.
+- **New(sticky-header extension):** Added to support bootstrap v4 and `theadClasses` option.
+- **New(auto-refresh extension):** Icons update to font-awesome 5.
+- **New(examples):** Added examples Algolia search.
+- **Update(js):** Fixed `theadClasses` is not set when a `thead` exists.
+- **Update(js):** Fixed table resize after mergeCell the first row.
+- **Update(cookie extension):** Fixed cookie extension broken bug.
+- **Update(cookie extension):** Fixed cookie extension unicode encode bug.
+- **Update(package):** Added `sass` devDependencies.
+
+### 1.13.3
+
+- **New(js):** Supported full table classes of bootstrap v4.
+- **New(css):** Rewrote bootstrap-table.css to scss.
+- **New(accent-neutralise extension):** Rewrote accent-neutralise extension to ES6.
+- **New(addrbar extension):** Rewrote addrbar extension to ES6 and supported attribute option.
+- **New(group-by-v2 extension):** New `groupByFormatter` option.
+- **New(pipeline extension):** New pipeline extension `bootstrap-table-pipeline`.
+- **Remove(js):** Removed `striped` option and use classes instead.
+- **Update(js):** Fixed `locale` option bug.
+- **Update(js):** Fixed `sortClass` option bug.
+- **Update(js):** Fixed `sortStable` option cannot work bug.
+- **Update(js):** Improved built-in sort function and `customSort` logic.
+- **Update(js):** Fixed horizontal scrollbar bug.
+- **Update(cookie extension):** Improved cookie extension code.
+
+### 1.13.2
+
+- **New(js):** Added `paginationSuccessivelySize`, `paginationPagesBySide` and `paginationUseIntermediate` pagination options.
+- **New(cookie extension):** Rewrote cookie extension to ES6.
+- **New(cookie extension):** Saved `filterBy` method.
+- **New(filter-control extension):** Added `placeholder` as a empty option to the select controls.
+- **New(filter-control extension):** Added `clearFilterControl` method in order to clear all filter controls.
+- **New(docs)** Added algolia search.
+- **Update(js):** Fixed sort column shows hidden rows in `server` side pagination bug.
+- **Update(js):** Fixed `scrollTo` bug.
+- **Update(css):** Fixed no-bordered problem of bootstrap v4.
+- **Update(filter-control extension):** Added bootstrap v4 icon support.
+
+### 1.13.1
+
+- feat(js): add `theadClasses` option to supoort bootstrap v4
+- feat(js): fix #3727, icons update to font-awesome 5
+- feat(locale): rewrite all locales to ES6
+- feat(editable extension): rewrite bootstrap-table-editable to ES6
+- feat(filter-control extension): rewrite bootstrap-table-filter-control to ES6
+- feat(treegrid extension): add `rootParentId` option
+- fix(js): fix #3653, getHiddenRows method bug
+- fix(js): fix #4066, `getOptions` method remove data property
+- fix(js): fix #4088, no matches display error
+- fix(js): fix eslint warning and error
+- fix(locale): fix #3999, improve es-ES locale
+- fix(filter-control extension): fix #3474, multiple choice bug
+- fix(filter-control extension): fix #4008, select all rows and `keyup` event error
+- fix(export extension): fix #4086, export in cardView display error
+
+### 1.13.0
+
+- feat(js): rewrite bootstrap-table to ES6
+- feat(locale): add fi-FI.js locale
+- feat(build): use babel instead grunt
+- feat(filter-control): add `created-controls.bs.table` event to filter-control
+- feat(export extension): rewrite export extension to ES6
+- feat(export extension): export extension support bootstrap v4
+- feat(export extension): add `exportTable` method
+- feat(toolbar extension): rewrite toolbar extension to ES6
+- feat(toolbar extension): toolbar extension supports bootstrap v4
+- feat(toolbar extension): add server sidePagination support
+- feat(resizable extension): new resizable extension version 2.0.0
+- feat(editable extension): allow different x-editable configuration per table row
+- feat(addrbar extension): add addrbar extension
+- fix(js): fix #1769, improve check/uncheck methods
+- fix(js): fix #1983, cookie with pageNumber and searchText bug
+- fix(js): fix #2485, selections bugs
+- fix(js): fix #2545, customSearch support data attribute
+- fix(js): fix #3696, can't search data with formatter
+- fix(js): fix #4081, getRowByUniqueId error when row unique id is undefined
+- fix(js): fix older bootstrap version bug
+- fix(css): fix #1848, remove toolbar line-height
+- fix(css): limit fullscreen CSS rule scope
+- fix(editable extension): fix #1819, #2072, editable formatter bug
+- fix(extension): fix #3720, fix #3682, bug with export extension together
+- fix(extension): remove lick-edit-row and flat-json extensions
+
+### 1.12.2
+
+- fix(js): fix #3656, toggle icon typo release error
+
+### 1.12.1
+
+- fix(js): fix #3656, toggle icon typo
+- fix(js): fix #3657, opencollective postinstall error
+- fix(group-by-v2 extension): fix #3598, detailView display bug
+- feat(tree-grid extension): fix #3607, add `rowStyle` support
+
+### 1.12.0
+
+- fix(js): fix zoom header width bug
+- fix(js): fix #3452, reset the table data when url loaded error
+- fix(js): fix #3380, check-all was wrong with the sub-table
+- fix(js): fix #2963, singleSelect, maintainSelected and pagination bug
+- fix(js): fix #3342, remove limit when it is 0
+- fix(js): fix #3472, group header style bug
+- fix(js): fix #3310, searchText causes two requests
+- fix(js): fix #3029, IE8 does not support getOwnPropertyNames
+- fix(js): fix #3204, sortName cannot work in server side pagination
+- fix(js): fix #3163, `showToolbar` bug when using extensions
+- fix(js): fix #3087, only send pagination parameters when `sidePagination` is `server`
+- fix(export extension): fix #3477, server pagination mode cannot export all data
+- fix(filter-control extension): fix #3271, duplicate select option with fixed header and client pagination
+- feat(js): add `detailFilter` option
+- feat(js): add `rememberOrder` option
+- feat(js): improve pageList `All` option locale independent
+- feat(js): add `Bootstrap v4.0` support
+- feat(js): add `row` data to sorter function
+- feat(js): add `ignoreClickToSelectOn` option
+- feat(js): add `onScrollBody` / `scroll-body.bs.table` event
+- feat(js): add `showFullscreen` option
+- feat(js): add `showSelectTitle` column option
+- feat(js): add `$el` to collapse-row
+- feat(locale): add `eu-EU` locale
+- feat(export extension): add `exportFooter` option
+- feat(multiple-sort extension): add `showMultiSortButton` option
+- feat(filter-control extension): add `searchOnEnterKey` option
+- feat(page-jumpto extension): add `page-jumpto` extension
+- feat(resizable extension): add `resizeMode` option
+- feat(sticky-header extension): add `Bootstrap v4.0` support
+- feat(treegrid extension): add `treegrid` extension
+- feat(print extension): add support to print complex table
+- feat(extension): add cookie in combination with filter-control and strict search
+
+#### Breaking changes in 1.12.0
+
+- feat(js): add `toggleOn` and `toggleOff` icons instead `toggle` icon
+
+
+### 1.11.1
+
+- fix(js): fix #2439, `filterBy` cannot filter array keys
+- fix(js): fix #2424, from html with checkbox bug
+- fix(js): fix #2385, checkbox render bug with formatter
+- fix(js): fix #750, showRow and hideRow bug
+- fix(js): fix #2387, page list bug
+- fix(js): decrement totalRows on remove if using server side pagination
+- fix(js): bug in the calculation of toolbar and pagination heights
+- feat(js): fix #2414, add `paginationLoop` option
+- feat(js): update method `getRowsHidden` to `getHiddenRows`
+- feat(js): add `sortClass` option
+- feat(js): add `totalField` Option
+- feat(js): add 'pageNumber' and 'pageSize' to 'refresh' method
+- feat(js): add `escape` column option
+- fix(js): fix #2461, adding the initPagination call to updateByUniqueId and updateRow methods
+- fix(js): fix #2879, IE8 bug
+- fix(js): fix #2719, remove `tabindex`
+- fix(css): fix #2208, dropdown-menu style bug
+- fix(filter-control extension): fix #2418, `height` cause datepicker not display the selected date
+- fix(export extension): fix #2220, selected rows does not work when data-pagination-side is server
+- fix(reorder-row extension): fix #1343, reorder rows bug with pagination
+- fix(cookie extension): correction regex to match 'mi'
+- feat(locale): fix #2759, add es-CL and uz-UZ locales
+- feat(cookie extension): fix #2386, add `getCookies` method
+- feat(cookie extension): fix #2371, add `cookieStorage` option
+- feat(multiple-selection-row extension): add multiple-selection-row extension
+- feat(filter-control extension): fix #1540, disable unnecessary/unused values from select options
+- feat(filter-control extension): fix #2448, create a css file which contains the style for this extension
+- feat(filter-control extension): fix #2189, set placeholder of the filter-control input
+- feat(print extension): add print extension
+- feat(auto-refresh extension): add auto refresh extension
+- feat(tree-column extension): add tree column extension
+
+#### Breaking changes in 1.11.1
+
+- **Filter-Control extension**: deleted the inline-style and now this extension is using a separated css file.
+
+
 ### 1.11.0
 
 - fix(js): fix cardVisible doesn't work bug

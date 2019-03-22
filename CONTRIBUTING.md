@@ -1,6 +1,6 @@
 # Contributing to Bootstrap Table
 
-Looking to contribute something to Bootstrap Table? 
+Looking to contribute something to Bootstrap Table?
 
 **Here's how you can help.**
 
@@ -77,12 +77,11 @@ Guidelines for bug reports:
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
    latest `master` or development branch in the repository.
 
-3. **Isolate the problem** &mdash; ideally create a live example. 
+3. **Isolate the problem** &mdash; ideally create a live example.
     The web tool [jsfiddle](http://jsfiddle.net/) is a very helpful for this. Consider to use these templates:
-    * [Table from html](http://jsfiddle.net/wenyi/e3nk137y/11/light/)
-    * [Table from data](http://jsfiddle.net/wenyi/e3nk137y/13/light/)
-    * [Table from url](http://jsfiddle.net/wenyi/e3nk137y/14/light/)
-    * Other templates can also be found at [jsFiddle Bootstrap](http://bootstrap-table.wenzhixin.net.cn/examples/#basic)
+    * [Table from html](http://jsfiddle.net/wenyi/e3nk137y/44345/)
+    * [Table from data](http://jsfiddle.net/wenyi/e3nk137y/44346/)
+    * [Table from url](http://jsfiddle.net/wenyi/e3nk137y/44348/)
 
 
 A good bug report shouldn't leave others needing to chase you up for more
@@ -211,3 +210,41 @@ includes code changes) and under the terms of the
 
 By contributing your code, you agree to license your contribution under the [MIT License](LICENSE).
 By contributing to the documentation, you agree to license your contribution under the [Creative Commons Attribution 3.0 Unported License](docs/LICENSE).
+
+
+## Financial contributions
+
+We also welcome financial contributions in full transparency on our [open collective](https://opencollective.com/bootstrap-table).
+Anyone can file an expense. If the expense makes sense for the development of the community, it will be "merged" in the ledger of our open collective by the core contributors and the person who filed the expense will be reimbursed.
+
+
+## Credits
+
+
+### Contributors
+
+Thank you to all the people who have already contributed to bootstrap-table!
+<a href="graphs/contributors"><img src="https://opencollective.com/bootstrap-table/contributors.svg?width=890" /></a>
+
+
+### Backers
+
+Thank you to all our backers! [[Become a backer](https://opencollective.com/bootstrap-table#backer)]
+
+<a href="https://opencollective.com/bootstrap-table#backers" target="_blank"><img src="https://opencollective.com/bootstrap-table/backers.svg?width=890"></a>
+
+
+### Sponsors
+
+Thank you to all our sponsors! (please ask your company to also support this open source project by [becoming a sponsor](https://opencollective.com/bootstrap-table#sponsor))
+
+<a href="https://opencollective.com/bootstrap-table/sponsor/0/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/1/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/2/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/3/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/4/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/5/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/6/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/7/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/8/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/bootstrap-table/sponsor/9/website" target="_blank"><img src="https://opencollective.com/bootstrap-table/sponsor/9/avatar.svg"></a>
